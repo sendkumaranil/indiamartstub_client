@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "ProductCatelogImplService", targetNamespace = "http://resource.indiamart.anil.com/", wsdlLocation = "http://localhost:8080//indiamart/ProductCatelogImplService?wsdl")
+@WebServiceClient(name = "ProductCatelogImplService", targetNamespace = "http://resource.indiamart.anil.com/", wsdlLocation = "http://localhost:8282//indiamart/ProductCatelogImplService?wsdl")
 public class ProductCatelogImplService
     extends Service
 {
@@ -30,7 +30,7 @@ public class ProductCatelogImplService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://localhost:8080//indiamart/ProductCatelogImplService?wsdl");
+            url = new URL("http://localhost:8282//indiamart/ProductCatelogImplService?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
